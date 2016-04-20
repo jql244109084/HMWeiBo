@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		6918A7271CC71BBE009B2A11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6918A7261CC71BBE009B2A11 /* main.m */; };
 		6918A72A1CC71BBE009B2A11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6918A7291CC71BBE009B2A11 /* AppDelegate.m */; };
-		6918A72D1CC71BBE009B2A11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6918A72C1CC71BBE009B2A11 /* ViewController.m */; };
-		6918A7301CC71BBE009B2A11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6918A72E1CC71BBE009B2A11 /* Main.storyboard */; };
 		6918A7321CC71BBE009B2A11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6918A7311CC71BBE009B2A11 /* Assets.xcassets */; };
 		6918A7351CC71BBE009B2A11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6918A7331CC71BBE009B2A11 /* LaunchScreen.storyboard */; };
 		6918A7401CC71BBE009B2A11 /* HM2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6918A73F1CC71BBE009B2A11 /* HM2Tests.m */; };
@@ -39,9 +37,6 @@
 		6918A7261CC71BBE009B2A11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6918A7281CC71BBE009B2A11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6918A7291CC71BBE009B2A11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6918A72B1CC71BBE009B2A11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6918A72C1CC71BBE009B2A11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6918A72F1CC71BBE009B2A11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6918A7311CC71BBE009B2A11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6918A7341CC71BBE009B2A11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6918A7361CC71BBE009B2A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -103,9 +98,6 @@
 			children = (
 				6918A7281CC71BBE009B2A11 /* AppDelegate.h */,
 				6918A7291CC71BBE009B2A11 /* AppDelegate.m */,
-				6918A72B1CC71BBE009B2A11 /* ViewController.h */,
-				6918A72C1CC71BBE009B2A11 /* ViewController.m */,
-				6918A72E1CC71BBE009B2A11 /* Main.storyboard */,
 				6918A7311CC71BBE009B2A11 /* Assets.xcassets */,
 				6918A7331CC71BBE009B2A11 /* LaunchScreen.storyboard */,
 				6918A7361CC71BBE009B2A11 /* Info.plist */,
@@ -245,7 +237,6 @@
 			files = (
 				6918A7351CC71BBE009B2A11 /* LaunchScreen.storyboard in Resources */,
 				6918A7321CC71BBE009B2A11 /* Assets.xcassets in Resources */,
-				6918A7301CC71BBE009B2A11 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +261,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6918A72D1CC71BBE009B2A11 /* ViewController.m in Sources */,
 				6918A72A1CC71BBE009B2A11 /* AppDelegate.m in Sources */,
 				6918A7271CC71BBE009B2A11 /* main.m in Sources */,
 			);
@@ -308,14 +298,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6918A72E1CC71BBE009B2A11 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6918A72F1CC71BBE009B2A11 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6918A7331CC71BBE009B2A11 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -496,6 +478,7 @@
 				6918A7511CC71BBE009B2A11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6918A7521CC71BBE009B2A11 /* Build configuration list for PBXNativeTarget "HM2Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +487,7 @@
 				6918A7541CC71BBE009B2A11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6918A7551CC71BBE009B2A11 /* Build configuration list for PBXNativeTarget "HM2UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +496,7 @@
 				6918A7571CC71BBE009B2A11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
